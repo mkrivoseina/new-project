@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="" method="POST">
+        <div>
+            <label for="name-input-field">Name:</label>
+            <input type="text" id="name-input-field" value="Name" name="name">
+
+        </div>
+        <div>
+            <label for="password-input-field">Password:</label>
+            <input type="password" id="password-input-field" placeholder="password" name="password">
+
+        </div>
+        <div>
+            <input type="date">
+        </div>
+        <div>
+            <input type="color">
+        </div>
+        <div>
+            <input type="checkbox" id=agree-checkbox name="checkbox" value="1">
+            <label for="agree-checkbox">Agree with terms and conditions</label>
+        </div>
+        <div>
+            <input type="checkbox" id=agree-checkbox checked>
+            <label for="agree-checkbox">Get the newsletter</label>
+        </div>
+        <div>
+            <div>
+
+                <div>
+                    <h1>gender:</h1>
+                    <input type="radio" id="gender-male" name="gender" value="Male">
+                    <label for="">Male</label>
+                </div>
+                <div>
+                    <input type="radio" id="gender-female" name="gender" value="female">
+                    <label for="">Female</label>
+                </div>
+                <div>
+                    <input type="radio" id="gender-IDK" name="gender" value="idk">
+                    <label for="">IDK</label>
+                </div>
+            </div>
+
+            <div>
+                <label for="country-select">Country:</label>
+                <select id="country-select" name="country">
+                    <option selected>Select one...</option>
+                    <optgroup label="Baltics">
+                        <option value="lv">Latvija</option>
+                        <option value="lt">Lietuva</option>
+                        <option value="ee">Igaunija</option>
+                        <option value="at">Atlantīda</option>
+                    </optgroup>
+                    <optgroup label="Africa">
+                        <option value="le">Lebanon</option>
+                        <option value="eg">Egypt</option>
+                        <option value="ly">Lybia</option>
+                        <option value="ni">Nigeria</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div>
+                <label for="comment-text">Comment:</label>
+                <textarea id="comment-text" cols="100" rows="10">
+Lorem         ipsum dolor sit amet consectetur, adipisicing elit. 
+Perspiciatis reiciendis sequi nobis nihil pariatur magnam, 
+odit sapiente praesentium eveniet reprehenderit. Libero tenetur
+quia atque quos animi deserunt distinctio similique dolor!
+</textarea>
+            </div>
+            <div>
+                <input type="submit" value="whatever">
+                <button>
+                    <em>foo</em>Bar
+                </button>
+            </div>
+
+    </form>
+</body>
+
+</html>
+<!--comment to self-->
